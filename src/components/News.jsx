@@ -1,5 +1,4 @@
 import React from 'react'
-// import {news} from './../assets/js/movies'
 
 const News = ({news}) => {
   return (
