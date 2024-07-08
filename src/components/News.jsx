@@ -17,7 +17,7 @@ const News = ({news}) => {
                 </p>
             </div>
             <div className='text-capitalize px-3 py-2 fst-italic fs-6 card-footer'>
-                {news.authorName}
+                Author Name : {news.authorName}
             </div>
         </div>
   )
