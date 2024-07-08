@@ -10,7 +10,7 @@ const News = ({news}) => {
                 <img src={news.imageUrl} alt="img" />
             </div>
             <div className='px-3 py-2 border-bottom-light'>
-                <h6 className='fw-bold'>{news.subtitle}</h6>
+                <h6 className='fw-bold'>{news.title}</h6>
                 <p className='mt-1'>
                     {news.content}
                 </p>
