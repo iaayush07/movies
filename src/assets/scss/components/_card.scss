@@ -1,0 +1,17 @@
+.card-header,.card-footer {
+    background-color: $bg-card-header;
+}
+.border-bottom-light {
+    border-bottom: 1px solid $bb-light;
+}
+.image-wrapper {
+    overflow: hidden;
+    aspect-ratio: 3/3;
+    img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+}
+.card-footer {
+    color: $movie-type;
+}
